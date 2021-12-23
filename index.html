@@ -1,35 +1,396 @@
 <h1>Gu&iacute;a de usuario para la aplicaci&oacute;n mobile Ubademy</h1>
 
-<h3>Registro</h3>
+<h3 id="registro">Registro</h3>
 
 <p>Una vez que se abra la aplicaci&oacute;n por primera vez, se presentar&aacute; la pantalla de Registro y Login. All&iacute;, presionar el bot&oacute;n de registro</p>
 
-<p><img src="Login.jpg" /></p>
-
 <p>Una vez cliqueado el bot&oacute;n, se le redireccionar&aacute; a la pantalla de registro de usuario, en el que deber&aacute; llenar todos los campos que se le piden. Una vez completado el formulario, en caso de no haber errores, volver&aacute; a la pantalla de Login.</p>
 
-<p><img src="Registro.PNG" /></p>
 
-<h3>Login</h3>
+
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Pantalla de login </p>
+        <img src="LoginRegister.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+    
+    <div style="width: 50%">
+        <p style="text-align: center"> Formulario de registro </p>
+        <p><img src="Registro.PNG" style="display: block; margin-left: auto; margin-right: auto"/></p>
+    </div>
+
+</div>
+
+
+<h3 id="login">Login</h3>
 
 <p>Ahora con las credenciales que eligi&oacute; al registrarse, puede ingresar a las funcionalidades de la aplicaci&oacute;n. En caso de que el mail registrado sea de Google, puede cliquear el icono de google para ingresar usando su cuenta de google directamente.</p>
 
-<p><img src="LoginGoogle.PNG" /></p>
-
 <p>Una vez logueado, ser&aacute; direccionado al Home de la aplicaci&oacute;n. Aqu&iacute; podr&aacute; ver diferentes listados de cursos, entre ellos uno de Recomendados, Mis Inscripciones, Mis Cursos (cursos creado por el usuario logueado), Cursos en los que soy colaborador, etc.</p>
 
-<p><img src="Home.PNG" /></p>
 
-<h3>Creaci&oacute;n de curso</h3>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Pantalla de login </p>
+        <img src="LoginRegister.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+    
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Login con google </p>
+        <p><img src="LoginGoogle.PNG" style="display: block; margin-left: auto; margin-right: auto"/></p>
+    </div>
+    
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Home de la aplicación </p>
+        <p><img src="Home.PNG" style="display: block; margin-left: auto; margin-right: auto"/></p>
+    </div>
+
+</div>
+
+
+
+
+<h3 id="creacion-curso">Creaci&oacute;n de curso</h3>
 
 <p>Para crear un curso, cliquear las 3 barritas de arriba a la izquierda y luego el bot&oacute;n de crear curso.</p>
 
-<p><img src="BotonCrearCurso.PNG" /></p>
-
 <p>Se le redireccionar&aacute; al formulario de creaci&oacute;n de curso, en el que deber&aacute; ingresar toda la informaci&oacute;n que se le muestre en pantalla. Una vez ingresada toda la informaci&oacute;n, cliquear el bot&oacute;n de Crear.</p>
 
-<p><img src="Formulario.PNG" /></p>
+<p>Se dar&aacute; la opci&oacute;n de subir imagenes y videos para que aquellos usuarios que pertenezcan al curso puedan visualizar. Para subir una imagen o un video, cliquear en el botón de subir archivo, y podrá elegir los archivos que desee subir. Luego podrá visualizar un listado con los archivos subidos, y puede borrarlos cliqueando el botón rojo a la derecha del nombre del archivo. </p>
 
-<p>Se dar&aacute; la opci&oacute;n de subir imagenes y videos para que aquellos usuarios que pertenezcan al curso puedan visualizar.</p>
 
-<p><img src="SubirImagenes.PNG" /></p>
+<p> Una vez elegido todos los archivos, cliquear el botón de siguiente para finalizar la creación del curso. </p>
+
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Acceso al perfil </p>
+        <p><img src="BotonCrearCurso.PNG" style="display: block; margin-left: auto; margin-right: auto"/></p>
+    </div>
+    
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Visualizando perfil propio </p>
+        <p><img src="Formulario.PNG" style="display: block; margin-left: auto; margin-right: auto"/></p>
+    </div>
+    
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Editando perfil </p>
+        <p><img id="subir-img" src="SubirImagenes.PNG" style="display: block; margin-left: auto; margin-right: auto"/></p>
+    </div>
+
+</div>
+
+
+
+
+<h3 id="filtrado-curso"> Filtrado de cursos </h3>
+
+<p> En la pantalla de Home es posible filtrar los diferentes listados según texto de los títulos de los cursos creados, tipo de suscripción, o temática del curso. Se puede filtrar cliqueando la flecha presente arriba a la izquiera, al lado del text box de busca un curso. Se desplegará una lista de acciones, y para realizar una búsqueda que cumpla con todos los parámetros se debe cliquear el botón de Buscar </p>
+
+<img src="FiltroCursos.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+
+<h3 id="visualizacion-curso"> Visualización de curso </h3>
+
+<p> En la pantalla de Home, al cliquear un curso se podrá ver el detalle del mismo. Se le direccionará a una pantalla que contiene dicha información, y se podrán visualizar los botones de Añadir como favorito, y en caso de que se cuente con una suscripción válida, un botón para inscribirse al curso. Si usted es el creador del curso, entonces podrá visualizar los botones que le permiten editar la información del curso (nombre, título y archivos). Al inscribirse al curso, podrá acceder a toda la información del mismo. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 25%">
+        <p style="text-align: center"> Si no es el creador del curso y no está inscripto y tiene una suscripción válida verá lo siguiente. </p>
+        <img src="VerCursoSinInsc.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 25%">
+        <p style="text-align: center"> Si no cuenta con una suscripción válida para el curso verá lo siguiente. </p>
+        <img src="SuscNoValida.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 25%">
+        <p style="text-align: center">Una vez que se suscriba verá lo siguiente.</p>
+        <img src="VerCursoInscripto.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 25%">
+        <p style="text-align: center">En caso de ser el creador del curso verá lo siguiente.</p>
+        <img src="VerCursoOwner.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+<h3 id="edicion-curso"> Edición de información de curso </h3>
+
+<p> En caso de ser dueño del curso, podrá modificar la información del curso cliqueando el botón de editar curso. Podrá modificar el título y descripción del curso, como tambien los arhivos que se pueden visualizar (siguiendo los mismos pasos descriptos en <a href="#subir-img">Subir Imágnes</a>). Para aplicar los cambios cliquear el botón de Aplicar Cambios. </p>
+
+<img src="EdicionCurso.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+
+<h3 id="ver-img"> Visualización de archivos de curso </h3>
+
+<p> En la pantalla de visualización de curso, si cliquea el botón de Ver imágenes se le redireccionará a un listado de archivos del curso, y allí podrá cliquear cualquier item para visualizar su contenido. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Listado de archivos. </p>
+        <img src="VerImg.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Visualización de archivo. </p>
+        <img src="Img.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="crear-ex"> Crear y publicar exámen </h3>
+
+<p> En la pantalla de visualización de curso, si cliquea el botón de Exámenes siendo creador, se le redirigirá a una pantalla en la que se podrán visualizar, crear y editar exámenes (esto último en caso de que no esté publicado).
+     Cliquear el + de abajo a la derecha y luego crear examen y será dirigido a un formulario de creación de exámen. Allí debe darle un título al exámen, y podrá agregar tantas consignas como se quiera (cliqueando el botón de nueva consigna) y asignarle un puntaje a cada una. La suma de los puntajes debe dar 10. Al completar el form correctamente, cliquear en Crear.
+     Ahora podrá ver el nuevo exámen en el listado como bloqueado (simbolizado por el candado), y para publicarlo debe cliquear el candado de la derecha del nombre y acceder a la publicación del pop up que se desplegará. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Creación de exámen </p>
+        <img src="CreacionExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Form de creación de exámen </p>
+        <img src="FormExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Exámen creado </p>
+        <img src="ListadoExamenes.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Exámen creado </p>
+        <img src="PublicarExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Exámen publicado </p>
+        <img src="ExamenPublicado.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="editar-ex"> Editar exámen </h3>
+
+<p> En la pantalla de visualización de curso, si cliquea el botón de Exámenes siendo creador, se le redirigirá a una pantalla en la que se podrán visualizar, crear y editar exámenes (esto último en caso de que no esté publicado).
+     Si el exámen no está publicado, cliquear el + de abajo a la derecha y luego editar examen y será dirigido a un formulario igual al de creación de exámen, en el que se le permitirá editar las consignas y títulos del exámen. La suma de los puntajes de las consignas debe seguir siendo 10.
+     Al finalizar, cliquear el botón de editar. En caso de que el exámen se encuentre ya publicado, se le informará el error. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Editar exámen </p>
+        <img src="EditarExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Form de edición de exámen </p>
+        <img src="FormEditExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+
+<h3 id="completar-ex"> Completar exámen </h3>
+
+<p> En la pantalla de visualización de curso, si cliquea el botón de Exámenes siendo alumno, se le redirigirá a una pantalla en la que se podrán visualizar y completar los exámenes publicados.
+     Para resolver un exámen, simplemente cliquear el que se quiera resolver del listado y se le redirigirá al exámen con sus preguntas y podrá responderlas. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Visualización de exámenes publicados </p>
+        <img src="ListadoAlumnosExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Resolución de exámen </p>
+        <img src="ResolverExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+<p> Luego, cliquee en la consigna que desee resolver y se le dirigirá a una pantalla en la que podrá responder la consigna. Para pasar a la siguiente consigna haga click en Siguiente. Una vez que llegue a la última consigna y cliquee Finalizar, volverá al form del exámen, y allí deberá cliquear Enviar Exámen para finalizar la resolución. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Resolución de consigna </p>
+        <img src="ResCons.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Exámen enviado </p>
+        <img src="ExamenEnviado.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Consigna resuelta luego de enviar </p>
+        <img src="ResolverConsigna.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+<p> Luego de enviado, el dueño del curso o sus colaboradores deberán corregirlo. Una vez corregido, vuelva a ingresar al exámen y verá sus correcciones generales, y tambien puede ver el detalle de la corrección de cada consigna cliqueando la que desee ver en detalle. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Exámen corregido </p>
+        <img src="ConsignaCorregidaAlumno.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Consigna corregida </p>
+        <img src="ConsignaCorregiaEspecifica.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="corregir-ex"> Corregir exámen </h3>
+
+<p> En la pantalla de visualización de curso, si cliquea el botón de Exámenes siendo dueño o colaborador del curso, se le redirigirá a una pantalla en la que se podrán corregir los exámenes publicados.
+     Para corregir un exámen, debe cliquear un exámen del listado y luego elegir al alumno que se quiera corregir. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 100%">
+        <p style="text-align: center"> Visualización de alumnos que resolvieron el exámen </p>
+        <img src="ElegirAlumno.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+<p> Luego, cliquee al alumno que quiera corregir, y podrá ver las respuestas del alumno. Al seleccionar una respuesta, se le dará la opción de elegir si está bien (suma el 100% de los puntos que vale la consigna) o mal (no suma). Se deben corregir todas las preguntas antes de cliquear enviar corrección. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Corrección de exámen </p>
+        <img src="CorrigiendoExamen.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Corrección de consigna </p>
+        <img src="CorreccionConsigna.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Consigna corregida </p>
+        <img src="ConsignaCorregida.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="ver-usuarios"> Visualización de Usuarios pertenecientes a un curso </h3>
+
+<p> En la pantalla de visualización de curso, si cliquea el botón de Ver Alumnos, se lo redirigirá a un listado de usuarios que pertenecen al curso. Se señalará con una coronita a la derecha del mail al usuario dueño del curso. Además, si cliquea en cualquiera de los usuarios se lo redirigirá a una pantalla en la que podrá visualizar más información del usuario en cuestión. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Listado de usuarios </p>
+        <img src="ListadoDeUsuariosDelCurso.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Detalles de usuario </p>
+        <img src="PerfilDeOtro.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="ver-perfil"> Visualización y edición de perfil propio </h3>
+
+<p> En la pantalla de Home, si cliquea las tres barritas de arriba a la izquierda y luego en el botón de perfil, será redireccionado a una pantalla en la que podrá ver sus datos y también editarlos. Para editar la información, cliquear el botón de editar perfil para redirigirse al formulario de edición de perfil. Allí podrá actualizar su nombre y apellido, como también su ubicación. Para confirmar los cambios, cliquear en aplicar cambios. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Acceso al perfil </p>
+        <img src="BotonCrearCurso.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Visualizando perfil propio </p>
+        <img src="EditandoPerfil.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 33.33%">
+        <p style="text-align: center"> Editando perfil </p>
+        <img src="EdicionPerfil.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="mensajes"> Envío de mensajes </h3>
+
+<p> En la pantalla de Home, si cliquea las tres barritas de arriba a la izquierda y luego en el botón de Mensajes privados se le redireccionará a una pantalla en la que podrá intercambiar mensajes en tiempo real con otro usuario de la plataforma.
+    En el listado bajo la pestaña de chats, verá las personas con las que tiene un chat activo, mientras que en la pestaña usuarios puede elegir un usuario cualquiera con el que comenzar un intercambio de mensajes.
+    Una vez que cliquee sobre un usuario se le abrirá el cha, en el que podrá escribir mensajes y luego enviarlos usando la flecha celeste de abajo a la derecha. Además al recibir un mensaje, también recibirá una notificación. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Acceso a la sección de mensajes </p>
+        <img src="BotonCrearCurso.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Visualizando chats activos </p>
+        <img src="Chats.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Visualizando usuarios disponibles </p>
+        <img src="Usuarios.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Chateando </p>
+        <img src="EnviandoMensaje.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 20%">
+        <p style="text-align: center"> Recibiendo mensaje </p>
+        <img src="MensajeRecibido.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
+
+
+<h3 id="suscripcion"> Inscrpición a suscripción y modificación de suscripción </h3>
+
+<p> En la pantalla de Home, si cliquea las tres barritas de arriba a la izquierda y luego en el botón de Suscribirse se le redireccionará a una pantalla en la que podrá mejorar su suscripción actual a una mejor, y se debe realizar un pago para mejorar la suscripción. </p>
+
+<div style="  display: flex; flex-wrap: wrap; padding: 0 4px;">
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Acceso a la sección de suscripción </p>
+        <img src="BotonCrearCurso.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+    <div style="width: 50%">
+        <p style="text-align: center"> Modificando y pagando la suscripción. </p>
+        <img src="Suscripción.PNG" style="display: block; margin-left: auto; margin-right: auto"/>
+    </div>
+
+</div>
